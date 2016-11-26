@@ -1,0 +1,104 @@
+/* This is a CSS comment */
+
+body {
+  padding: 20px 50px;
+  font-family: Helvetica;
+  width: 1000px;
+  margin: 0 auto;
+  /* The 0 refers to the top and bottom margins and the "auto" automatically */
+  padding: 10px;
+}
+
+
+/* Heading formats.*/
+
+h1 {
+  text-align: right;
+  color: #ffffff;
+  font-size: 35px
+}
+
+p {
+  margin: 1px 0;
+}
+
+.master_heading {
+  background-color: #00447c;
+  color: white;
+  padding: 30px;
+  margin: 10px auto;
+}
+
+h2 {
+  margin: 10px;
+  text-align: left;
+}
+
+
+/* Creating a flex container & item structure for the page layout.*/
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  width: 1000px;
+  list-style: none;
+  color: white;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-container-duo {
+  background: #0085c3;
+  padding: 10px;
+  margin: 10px;
+  width: 960px;
+  list-style: none;
+  color: white;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 320px;
+  height: 270px;
+  margin-top: 10px;
+  color: white;
+}
+
+.flex-itemlong {
+  padding: 5px;
+  width: 970px;
+  height: 180px;
+  margin-top: 10px;
+  color: white;
+}
+
+.flex-itemmid {
+  padding: 0px;
+  width: 420px;
+  height: 150px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+.flex-itemheader {
+  padding: 5px;
+  width: 970px;
+  height: 50px;
+  margin-top: 10px;
+  color: white;
+}
+
